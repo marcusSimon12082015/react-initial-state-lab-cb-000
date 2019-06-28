@@ -10,6 +10,6 @@ export default class Bomb extends React.Component
     }
   }
   render(){
-    return(<div>{"I am on slide" + this.state.currentSlideIndex}</div>);
+    return(<div>{"I am on slide " + this.state.currentSlideIndex}</div>);
   }
 }
