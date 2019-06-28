@@ -6,7 +6,7 @@ export default class Bomb extends React.Component
   constructor(){
     super();
     this.state = {
-      currentSlideIndex:0
+      secondsLeft:0
     }
   }
   render(){
