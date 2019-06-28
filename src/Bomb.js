@@ -3,7 +3,13 @@ import React from 'react';
 
 export default class Bomb extends React.Component
 {
+  constructor(){
+    super();
+    this.state = {
+      currentSlideIndex:0
+    }
+  }
   render(){
-    return();
+    return(<div>{"I am on slide" + this.state.currentSlideIndex}</div>);
   }
 }
