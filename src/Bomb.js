@@ -3,7 +3,6 @@ import React from 'react';
 
 export default class Bomb extends React.Component
 {
-  static
   constructor(props){
     super();
     this.state = {
